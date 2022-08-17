@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BootcampController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+/*Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
+});*/
+
+//Primera ruta REST
+Route::get('prueba', function(){
+    echo "Hola";
 });
+
+//vincular el controlador bootcamp asis rutas
+Route::apiResource('bootcamps', BootcampController::class);

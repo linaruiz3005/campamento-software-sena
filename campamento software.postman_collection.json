@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "c90b3d7b-3168-48ed-a25b-fd79e6865026",
+		"name": "campamento software",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "bootcamps",
+			"item": [
+				{
+					"name": "Traer todos los bootcamps",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/api/bootcamps",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"bootcamps"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear nuevo bootcamp",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/api/bootcamps",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"bootcamps"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener bootcamp por id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/api/bootcamps/6",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"bootcamps",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar un bootcam por id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/api/bootcamps/6",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"bootcamps",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar bootcamp por id",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "courses",
+			"item": []
+		},
+		{
+			"name": "reviews",
+			"item": []
+		},
+		{
+			"name": "users",
+			"item": []
+		},
+		{
+			"name": "prueba",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
