@@ -1,0 +1,10 @@
+[
+    {
+        "title" : "Curso de php bonito",
+        "description" : "Es un curso muy bonito",
+        "weeks" : "22",
+        "enroll_cost" : "22222",
+        "minimum" : "no se que es esto",
+        "bootcamp_id" : 1
+    }
+]
